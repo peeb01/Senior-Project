@@ -1,5 +1,10 @@
-# None
-
+# Note
+## Library:
+- Tensorflow
+- NumPy
+- Pandas
+- matplotlib
+- seaborn
 
 
 
