@@ -1,7 +1,11 @@
+# Ignore Jupyter notebook files
+*.ipynb
+
+# Ignore the dataset directory
 dataset/
 
-.csv
+# Ignore CSV files
+*.csv
 
-.json
-
-.ipynb
+# Ignore JSON files
+*.json
