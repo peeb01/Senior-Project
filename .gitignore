@@ -1,8 +1,12 @@
+*.ipynb
+
 dataset/
 
-.csv
+*.csv
 
-.json
+*.json
+
+*.exe
 
 models/
 
