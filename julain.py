@@ -9,7 +9,7 @@ ephemeris_path = "E:\Senior Project\ZPH"
 swe.set_ephe_path(ephemeris_path)
 
 
-t = pd.read_csv('dataset\Spatial-Clustering_ctr_mag4_5upper.csv')
+t = pd.read_csv('dataset\Spatial_mag4_0upper.csv')
 t['time'] = pd.to_datetime(t['time']).dt.strftime('%Y-%m-%d %H:%M:%S')
 t = t[['time']]
 
@@ -21,4 +21,4 @@ def get_julian_date(date_str):
 
 t['jd'] = t['time'].apply(get_julian_date)
 
-t.to_csv('juain_date405.csv', index=False)
+t.to_csv('juain_date4.csv', index=False)
