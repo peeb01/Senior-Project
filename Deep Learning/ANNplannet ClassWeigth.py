@@ -15,7 +15,6 @@ import seaborn as sns
 from sklearn.utils import class_weight
 
 
-
 y_label = pd.read_csv('dataset/Plate_dataset_mag405.csv')
 Lb = LabelEncoder()
 y_labe = Lb.fit_transform(y_label['nearest_cluster'])

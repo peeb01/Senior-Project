@@ -12,7 +12,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
-
 from sklearn.metrics import f1_score
 
 y_label = pd.read_csv('dataset\Plate_dataset_mag405.csv')
