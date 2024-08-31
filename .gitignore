@@ -1,5 +1,3 @@
-*.ipynb
-
 dataset/
 
 *.csv
@@ -11,3 +9,8 @@ dataset/
 models/
 
 other file/
+
+*.html
+*.htm
+
+Deep Learning/Google Colab/
