@@ -15,3 +15,5 @@
 ### The Result after do Earthquakes cannot be predicted
 
 This Senior Project of Computer Engineering, Faculty of Engineering Naresuan University.
+
+### Thank you. | ありがとう.
